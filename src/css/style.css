@@ -1,0 +1,79 @@
+:root {
+    --primary-colour: #000000;
+    --item-margin: 1em;
+    --border-style: solid;
+    --font-size: 1.1em;
+}
+
+body {
+    font-family: 'Georgia';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#display {
+    font-family: 'Verdana';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#display > * {
+    margin: var(--item-margin);
+}
+
+#input-box > * {
+    margin: var(--item-margin);
+}
+
+button {
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 1em;
+    color: #FFFFFF;
+    font-size: var(--font-size);
+    background-color: var(--primary-colour);
+    border-width: 0em;
+}
+
+input {
+    border-width: 0.25em;
+    border-style: var(--border-style);
+    border-color: var(--primary-colour);
+    border-radius: 0.5em;
+    font-size: var(--font-size);
+}
+
+table, th, td {
+    table-layout: fixed;
+    border-width: 0.2em;
+    border-color: var(--primary-colour);
+    border-style: var(--border-style);
+}
+
+td {
+    padding: 0em 3em;
+}
+
+@media screen and (max-width: 70em)  {
+
+
+
+    #display, #display > * {
+        font-size: 1.5em;
+    }
+
+    #input-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    input {
+        border-width: 0.15em; 
+    }
+}
