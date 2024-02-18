@@ -4,12 +4,12 @@
    Jack Ramsay
 
 ## Contents
-   A web app that returns a car's information with just a reg number.
+   A web app that returns a car's information with just a registration number.
 
 ## Features
-   * The Garage
+   * The Garage:
       There are a few cars in 'the garage' already as examples. 
-   * Entry Box
+   * Entry Box:
       A box to enter car regs in. The car's information is display at the end of the list of the garage.
 
 ## Design & Implementation Rationale
