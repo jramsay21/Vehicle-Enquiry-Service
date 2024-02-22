@@ -58,11 +58,12 @@
    ```bash
    npm install
    ```
-5. Start a simple, local HTTP server on port 8080 with:
+5. Create a new ".env" file formatted exactly like "example.env" and insert your DVLA API key.
+6. Start a simple, local HTTP server on port 8080 with:
    ```bash
    npm start
    ```
-6. Type 'localhost:8080' into the searchbar of browser of choice
+7. Type 'localhost:8080' into the searchbar of browser of choice
 
 ## Built With
    * Visual Studio Code
